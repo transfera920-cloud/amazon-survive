@@ -47,11 +47,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeId }) => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           {/* Brand Left */}
           <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToTop();
-            }}
+            href="https://amazon-hike.com/"
             className="flex items-center gap-2.5 text-slate-200 hover:text-white transition-colors"
           >
             <div className="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
