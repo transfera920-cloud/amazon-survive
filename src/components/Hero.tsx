@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
 
       <div className="relative max-w-5xl mx-auto">
         {/* Brand & Chapter Identification Hierarchy */}
-        <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-800/80 mb-8">
+        <div className="flex items-center justify-between gap-4 pb-6 border-b border-slate-800/80 mb-8">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
               <Compass className="w-5 h-5" aria-hidden="true" />
@@ -36,15 +36,6 @@ export const Hero: React.FC = () => {
                 亞馬遜國家山岳協會 · 登山教育教材
               </p>
             </div>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-mono font-bold bg-slate-800 border border-slate-700 text-amber-300">
-              Ch. 11 / 16
-            </span>
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-mono text-slate-400 bg-slate-800/60 border border-slate-700/60">
-              Chapter Eleven
-            </span>
           </div>
         </div>
 
@@ -59,7 +50,7 @@ export const Hero: React.FC = () => {
 
             {/* Strict ONLY ONE H1 of the entire page */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight">
-              緊急應變與野外求生
+              登山緊急應變與野外求生
             </h1>
 
             {/* Subtitle */}

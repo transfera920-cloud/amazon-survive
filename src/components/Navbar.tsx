@@ -63,16 +63,6 @@ export const Navbar: React.FC<NavbarProps> = ({ activeId }) => {
             </div>
           </a>
 
-          {/* Center Badge (Desktop) */}
-          <div className="hidden md:flex items-center gap-2 text-xs font-mono">
-            <span className="px-2.5 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 font-bold">
-              Ch. 11 / 16
-            </span>
-            <span className="text-slate-300 font-sans font-medium">
-              緊急應變與野外求生
-            </span>
-          </div>
-
           {/* Right Actions */}
           <div className="flex items-center gap-2">
             <a
