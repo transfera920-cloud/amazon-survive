@@ -1,6 +1,6 @@
 {
-  "name": "登山緊急應變與野外求生｜事故現場處置與等待救援｜亞馬遜國家山岳協會",
-  "description": "登山遇到事故時該怎麼做？介紹第一時間處置、現場安全評估、常見傷害、迷途應變、等待救援，以及領隊與隊伍的緊急應變。",
+  "name": "登山緊急應變與野外求生｜山域事故處理與求生能力",
+  "description": "了解登山緊急應變與野外求生，認識山域事故處理、緊急狀況應對與野外求生的基本能力，建立面對突發狀況的應變能力。",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
