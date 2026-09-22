@@ -48,10 +48,15 @@ export const Hero: React.FC = () => {
               <span>登山事故｜應變現場｜生存｜台灣山區</span>
             </div>
 
-            {/* Strict ONLY ONE H1 of the entire page */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight">
-              登山緊急應變與野外求生
-            </h1>
+            {/* Chapter Badge & Strict ONLY ONE H1 */}
+            <div>
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-800/90 border border-slate-700/70 text-slate-400 mb-2">
+                第十一章
+              </span>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight">
+                登山緊急應變與野外求生
+              </h1>
+            </div>
 
             {/* Subtitle */}
             <p className="text-lg sm:text-xl font-medium text-slate-300 leading-relaxed">
